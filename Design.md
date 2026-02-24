@@ -46,12 +46,3 @@ classDiagram
     Taller ..> Mecanico : usa (dependencia)
     Taller ..> Reparacion : crea
 
-## Herencia: Coche y Moto heredan la clase Vehículo, ya que, comparten atributos.
-
-## Interfaz: Mecánico implementa Especialista, cumpliendo contrato del método reparar().
-
-## Agregación: La relación de Cliente y Vehículo es de agregación (rombo vacío), un cliente posee vehículos, pero estos tienen identidad propia, y podrían existir o pasar a otro dueño de forma independiente.
-
-## Composición:La relación entre vehículo y reparación es de composición (rombo relleno) es un vínculo fortalecido, ya que, una reparación no tendría sentido sin un vehículo.
-
-## Dependencia: La clase Taller tiene una dependencia puntual con Mecánico al recibirlo como parámetro para realizar una acción, pero no la posee de forma permanente.

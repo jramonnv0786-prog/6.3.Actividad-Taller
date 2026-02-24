@@ -1,5 +1,4 @@
 import java.util.Date;
-
 public class Reparacion {
     private Date fecha;
     private String descripcion;
